@@ -11,6 +11,5 @@ python-dateutil==2.8.2
 pytz==2022.6
 requests==2.28.1
 six==1.16.0
--e git+ssh://git@github.com/da-maltsev/Ticker-checker.git@28bb56ff05a38ba6ad2f96cd5a58fe1bdd98cb1a#egg=stock
 urllib3==1.26.12
 yfinance==0.1.85

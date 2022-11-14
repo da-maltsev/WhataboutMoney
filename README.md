@@ -1,7 +1,9 @@
 # Stock price checker cli
 ### For start using:
-1. pip install requirements.txt
-2. pip install --editable .
+1. python\<version> -m venv \<virtual-environment-name>
+2. source venv/bin/activate
+3. pip install -r requirements.txt
+4. pip install --editable .
 
 
 ### To check any ticker just use command:

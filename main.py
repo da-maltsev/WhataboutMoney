@@ -1,5 +1,4 @@
-from Ticker import Ticker
+from Ticker.cli import *
 
 if __name__ == "__main__":
-    ticker = Ticker(input())
-    print(ticker.get_stat())
+    cli()

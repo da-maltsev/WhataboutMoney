@@ -15,7 +15,7 @@ class Currency:
 
     def get_exchange_rate(self, symbols: str = None):
         url = 'https://api.exchangerate.host/latest'
-        symbols = self.validate_symbols(symbols)
+        symbols = self.validate_symbols(symbols) if symbols else symbols
         response = requests.get(url, {'base': self.currency_name, 'symbols': symbols})
         if response.status_code != 200:
             raise Exception('Bad request. Exchange rate server is not available.')

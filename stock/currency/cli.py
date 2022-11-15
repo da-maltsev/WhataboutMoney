@@ -5,7 +5,7 @@ import click
 @click.command()
 @click.argument('main_currency')
 @click.option('--exchangeable_currencies', '-e', default=None, help='List of currencies like "XXX,YYY,ZZZ".')
-def rate(main_currency, exchangeable_currencies):
+def rate(main_currency: str = 'USD', exchangeable_currencies: str = None):
     """Write <base> currency to see all exchange rates or add filter of currencies with flag -e"""
     try:
         currency = Currency(main_currency)

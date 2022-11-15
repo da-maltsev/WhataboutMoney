@@ -20,6 +20,8 @@ class Currency:
         if response.status_code != 200:
             raise Exception('Bad request. Exchange rate server is not available.')
         data = response.json()
+        if data["base"] != self.currency_name:
+            raise Exception(f'Currency {self.currency_name} does not exist')
         rates = data['rates']
         pretty_data = ''
         i = 0

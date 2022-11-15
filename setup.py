@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'stock = stock.main:cli',
+            'stock = stock.main:entry_point',
         ],
     },
 )

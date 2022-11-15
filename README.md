@@ -9,5 +9,6 @@
 ### To check any ticker just use command:
 - stock price \<tickername>
 - stock stat \<tickername>
+- stock rate \<base_currency>
 
 _work in progress_

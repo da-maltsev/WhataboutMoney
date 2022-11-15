@@ -8,5 +8,6 @@
 - stock price \<tickername>
 - stock stat \<tickername>
 - stock rate \<base_currency>
+- stock crypto \<crypto_name>
 
 _work in progress_

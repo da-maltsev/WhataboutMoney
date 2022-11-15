@@ -16,7 +16,7 @@ dependency_links = [x.strip().replace('git+', '') for x in all_reqs if 'git+' no
 
 setup(
     name='stock',
-    version='0.2.0',
+    version='0.3.0',
     packages=find_packages(),
     include_package_data=True,
     python_requires='>=3.8',
